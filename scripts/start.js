@@ -7,16 +7,13 @@ const paths = require('../config/paths')
 const { logMessage, compilerPromise } = require('./utils')
 
 const app = express()
-
-const WEBPACK_PORT =
-  process.env.WEBPACK_PORT ||
-  (!isNaN(Number(process.env.PORT)) ? Number(process.env.PORT) + 1 : 8501)
+const PORT = process.env.PORT || 8500
+const WEBPACK_PORT = process.env.WEBPACK_PORT || Number(PORT) + 1
 
 const start = async () => {
-  const url = `http://localhost:${WEBPACK_PORT}`
   const { createClientConfig, createServerConfig } = webpackConfig
 
-  const clientConfig = createClientConfig({ url })
+  const clientConfig = createClientConfig({ url: `http://localhost:${PORT}` })
   const serverConfig = createServerConfig()
 
   const multiCompiler = webpack([ clientConfig, serverConfig ])
