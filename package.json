@@ -33,7 +33,7 @@
     "react-storefront": "^5.0.4",
     "react-svg-loader": "^2.1.0",
     "react-transition-group": "^2.5.0",
-    "react-universal-component": "^2.9.0"
+    "react-universal-component": "^3.0.3"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

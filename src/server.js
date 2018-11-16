@@ -22,9 +22,6 @@ if (process.env.NODE_ENV === 'development') {
 app.use(cors())
 app.use(bodyParser.json())
 
-
-// Config.load(blob || require('./blob.dev').default)
-
 app.use(
   reactStorefrontMiddleware(
     new Server({ 
