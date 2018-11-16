@@ -1,0 +1,12 @@
+/build
+/node_modules
+/tmp
+/moovworkerd.pid
+.DS_Store
+moov_main.js
+moov_main.js.map
+host_map.js
+/*.log
+.cache
+/.moov
+/moov_config.json
