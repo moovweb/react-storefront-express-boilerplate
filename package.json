@@ -33,7 +33,8 @@
     "react-storefront": "^5.0.4",
     "react-svg-loader": "^2.1.0",
     "react-transition-group": "^2.5.0",
-    "react-universal-component": "^3.0.3"
+    "react-universal-component": "^3.0.3",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -69,7 +70,10 @@
   },
   "scripts": {
     "start": "cross-env NODE_ENV=development node scripts/start.js",
-    "link:all": "npm link react-storefront react-storefront-middleware"
+    "link:all": "npm link react-storefront react-storefront-middleware",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
-  "description": "An example app built with react-storefront and express."
+  "description": "An example app built with react-storefront and express.",
+  "snyk": true
 }
