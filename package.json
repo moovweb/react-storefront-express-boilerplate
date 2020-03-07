@@ -30,7 +30,7 @@
     "react-dom": "^16.5.2",
     "react-helmet": "^5.2.0",
     "react-jss": "^8.3.5",
-    "react-storefront": "^5.0.4",
+    "react-storefront": "^7.0.0",
     "react-svg-loader": "^2.1.0",
     "react-transition-group": "^2.5.0",
     "react-universal-component": "^3.0.3"
@@ -53,7 +53,7 @@
     "babel-preset-stage-0": "^6.16.0",
     "core-js": "^2.5.7",
     "cross-env": "^5.2.0",
-    "eslint": "4.10.0",
+    "eslint": "6.0.0",
     "eslint-config-react-app": "^2.1.0",
     "eslint-loader": "^2.1.1",
     "eslint-plugin-flowtype": "^2.46.2",
@@ -63,7 +63,7 @@
     "file-loader": "^2.0.0",
     "html-webpack-plugin": "^3.2.0",
     "remotedev": "^0.2.7",
-    "webpack": "^4.25.1",
+    "webpack": "^4.29.0",
     "webpack-dev-middleware": "^3.4.0",
     "webpack-flush-chunks": "^1.2.3"
   },
