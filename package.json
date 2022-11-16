@@ -30,7 +30,7 @@
     "react-dom": "^16.5.2",
     "react-helmet": "^5.2.0",
     "react-jss": "^8.3.5",
-    "react-storefront": "^5.0.4",
+    "react-storefront": "^9.0.0",
     "react-svg-loader": "^2.1.0",
     "react-transition-group": "^2.5.0",
     "react-universal-component": "^3.0.3"
@@ -61,7 +61,7 @@
     "eslint-plugin-jsx-a11y": "5.1.1",
     "eslint-plugin-react": "7.4.0",
     "file-loader": "^2.0.0",
-    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^5.5.0",
     "remotedev": "^0.2.7",
     "webpack": "^4.25.1",
     "webpack-dev-middleware": "^3.4.0",
